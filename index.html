@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Snake Game</title>
+</head>
+
+<body>
+
+    <div class="gameBody">
+        <div id="gameScore">Your Score: 0</div>
+        <div id="gameHighestScore">Highest Score: 0</div>
+        <button id="start-game" class="btn btn-outline-success btn-lg">Start Game</button>
+        <div id="gameBord" class="display-none"></div>
+    </div>
+    
+    <div class="gameOverBox d-none">
+        <img src="./Game-Over-PNG.png">
+        <div><button class="btn btn-success mt-3">Play Again!</button></div>
+        <!-- <div class="playAgain">Press any key to play again!</div> -->
+    </div>
+
+    <div class="snakeImg"></div>
+
+    <div class="playMusic">
+        <span>Play music</span>
+        <i class="fa-solid px-2 py-2 fa-volume-xmark"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/d7794c7bd4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
